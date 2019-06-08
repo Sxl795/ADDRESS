@@ -83,16 +83,17 @@ public class Operation extends JFrame implements ActionListener{
         this.s = s;
     }
 	
-	public static void main(String args[]) {
+	/*public static void main(String args[]) {
 	   try {
 		   Login login = new Login();
+		   System.out.println("heloo?");
 		   
 	} catch (Exception e) {
 		// TODO 自动生成的 catch 块
 		e.printStackTrace();
 	}
-    }
-	 public Operation() throws Exception{
+    }*/
+	 public Operation(){// throws Exception
 		 String JDriver="com.microsoft.jdbc.sqlwerver.SQLServerDriver";
 			String conURL="jdbc:sqlserver://localhost:1433;DatabaseName=Address";
 			String user="sxl";
